@@ -9,4 +9,4 @@ RUN echo $PORT
 
 EXPOSE $PORT
 
-CMD ["hugo", "server", "--port=8080"]
+CMD ["hugo", "server", "--port=8080", "&"]
