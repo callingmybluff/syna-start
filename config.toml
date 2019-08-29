@@ -9,6 +9,10 @@ version = "0.15.0"
 # Google Analytics tracking
 googleAnalytics = ""
 
+# URLS
+baseURL = "http://wiki.almeta.io"
+#canonifyURLs = true
+
 [outputs]
   home = ["HTML", "JSON"]
 
