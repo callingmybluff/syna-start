@@ -5,7 +5,8 @@ COPY . / /app/
 
 RUN git submodule foreach git pull
 RUN hugo
+RUN echo $PORT
 
 EXPOSE $PORT
 
-CMD ["hugo", "server", "-p", "$PORT"]
+CMD ["hugo", "server", "--port=$PORT"]
