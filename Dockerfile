@@ -8,4 +8,4 @@ RUN hugo
 
 EXPOSE $PORT
 
-CMD ['hugo', 'server', '-p', '$PORT']
+CMD ["hugo", "server", "-p", "$PORT"]
